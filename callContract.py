@@ -114,9 +114,9 @@ if __name__ == '__main__':
     #get_storage_contract_public_data('data1')
     #get_secret_contract_caller()
     #getManage_DHKey_secret_contract('dataTest')
-    #getUser_DHKey_secret_contract('0x61bEa2058e8d5a01F1f9898E49F53Cc3cc8E6520', 'dataTest')
-    #get_storage_contract_user_data('0x61bEa2058e8d5a01F1f9898E49F53Cc3cc8E6520', 'user1')
-    get_table_contract_dataStorageContractAddress()
+    getUser_DHKey_secret_contract('0x61bEa2058e8d5a01F1f9898E49F53Cc3cc8E6520', 'hello')
+    #get_storage_contract_user_data('0x61bEa2058e8d5a01F1f9898E49F53Cc3cc8E6520', 'hello')
+    #get_table_contract_dataStorageContractAddress()
     #get_table_contract_dataManageContractAddress()
     #get_table_contract_secretContractAddress()
 

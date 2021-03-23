@@ -4,3 +4,6 @@ w3 = myWeb3()
 w3.initAccount(privateKey='dda1ec2a2312151ac7d82cb9842b72c93edcad903b44a185387cd53fd2c29625')
 
 print(w3.getBalance('0x76e0eC050466c4dddBbAA25C3f069C18F026AF95'))
+
+
+#print(w3.ETH.getCode('0x489F157C67583cF895F9011783422f421F8D85bD'))

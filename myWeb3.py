@@ -15,7 +15,7 @@ class myWeb3:
     #初始化账户
     def initAccount(self , privateKey = None):
         if privateKey == None:
-            self.account = self.ETH.account.privateKeyToAccount('DDA1EC2A2312151AC7D82CB9842B72C93EDCAD903B44A185387CD53FD2C29625')
+            self.account = self.ETH.account.privateKeyToAccount('dda1ec2a2312151ac7d82cb9842b72c93edcad903b44a185387cd53fd2c29625')
         else:
             self.account = self.ETH.account.privateKeyToAccount(privateKey)
     #发起交易
